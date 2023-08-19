@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 //app.get('/', (req, res) => {
 //  res.send('Привет, мир!');
@@ -21,4 +21,3 @@ app.use(express.static('public'));
 app.listen(port, () => {
   console.log(`Сервер запущен на http://localhost:${port}`);
 });
-
